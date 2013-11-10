@@ -1,29 +1,23 @@
+window.onload = function() {	
 
-function init(){
+	var canvas = document.getElementById('container');  
+	canvas.width  = window.innerWidth;
+	canvas.height = window.innerHeight;
+	context = canvas.getContext('2d');
 
-var stage = new Kinetic.Stage({
-  container: 'container',
-  width: 578,
-  height: 200
-});
-var layer = new Kinetic.Layer();
+	var imgPath = 'img/'
 
-var imageObj = new Image();
-imageObj.onload = function() {
-  var spaceshipBlue = new Kinetic.Image({
-    x: 200,
-    y: 50,
-    image: imageObj,
-    width: 100,
-    height: 88
-  });
+	function addImage(nameObject,img,x,y,width,height)
+	{
+		nameObject = new Image();
+		nameObject.src = img;
+		nameObject.onload = function(){
+			context.drawImage(nameObject, x, y, width, height);
+		}
+	}
 
-  // add the shape to the layer
-  layer.add(spaceshipBlue);
+	var blue, yellow;
+	var spaceshipBlue = addImage(blue,imgPath+'spaceshipBlue.png',0,0,100,88);
+	var spaceshipYellow = addImage(yellow,imgPath+'spaceshipYellow.png',100,100,100,88);
 
-  // add the layer to the stage
-  stage.add(layer);
 };
-imageObj.src = './spaceshipBlue.png';
-
-}
