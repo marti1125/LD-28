@@ -1,14 +1,24 @@
-window.onload = function() {	
+window.onload = function() {
+
+	var startGame = document.getElementById('startGame');
+	startGame.width  = window.innerWidth;
 
 	var canvas = document.getElementById('container');  
 	canvas.width  = window.innerWidth;
 	canvas.height = window.innerHeight;
 	context = canvas.getContext('2d');
 
+	canvas.classList.add('containerHide');
+
+	startGame.onclick=function(){
+		startGame.classList.add('startGameHide');
+		canvas.classList.remove('containerHide');
+	};
+	
+
 	var imgPath = 'img/'
 
-	function addImage(nameObject,img,x,y,width,height)
-	{
+	function addImage(nameObject,img,x,y,width,height){
 		nameObject = new Image();
 		nameObject.src = img;
 		nameObject.onload = function(){
