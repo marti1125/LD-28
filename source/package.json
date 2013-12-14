@@ -13,7 +13,15 @@
 				"normal.fnt",
 				"small.fnt"
 			],
-			"Text": [ "js" ]
+			"Text": [ "js" ],
+            "SpaceShip": [
+                "js",
+                "spaceship.png"
+            ],
+            "Asteroid": [
+                "js",
+                "asteroid.png"
+            ]
 		},
 
 		"state": {
