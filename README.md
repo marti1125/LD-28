@@ -1,5 +1,5 @@
 Ludum Dare 28
 ====================
 JS Lib
-* [lycheeJS](http://lycheejs.org/)
+* [MelonJS](http://melonjs.org)
  
