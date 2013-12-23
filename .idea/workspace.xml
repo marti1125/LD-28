@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb93f8cc-0ba9-42c6-b8ba-610d91c3f1f4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/map/area01.tmx" afterPath="$PROJECT_DIR$/data/map/area01.tmx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/entities/entities.js" afterPath="$PROJECT_DIR$/js/entities/entities.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/game.js" afterPath="$PROJECT_DIR$/js/game.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/resources.js" afterPath="$PROJECT_DIR$/js/resources.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LD-28.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +28,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="resources.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="resources.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/resources.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="47" selection-start="124" selection-end="124" vertical-scroll-proportion="0.14554794" vertical-offset="0" max-vertical-offset="816">
+            <state line="14" column="28" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entities.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/entities/entities.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="43" selection-start="2540" selection-end="2540" vertical-scroll-proportion="0.65068495" vertical-offset="1133" max-vertical-offset="4182">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/game.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="59" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1122">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,11 +83,11 @@
         <option value="$PROJECT_DIR$/source/state/Game.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js/entities/HUD.js" />
-        <option value="$PROJECT_DIR$/js/entities/entities.js" />
         <option value="$PROJECT_DIR$/js/screens/play.js" />
-        <option value="$PROJECT_DIR$/js/game.js" />
         <option value="$PROJECT_DIR$/data/map/area01.tmx" />
         <option value="$PROJECT_DIR$/js/resources.js" />
+        <option value="$PROJECT_DIR$/js/game.js" />
+        <option value="$PROJECT_DIR$/js/entities/entities.js" />
       </list>
     </option>
   </component>
@@ -141,6 +165,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LD-28" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LD-28" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -204,7 +246,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -255,17 +297,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/entities/HUD.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.17465754" vertical-offset="0" max-vertical-offset="1360" />
+        <state line="6" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.17465754" vertical-offset="0" max-vertical-offset="1360">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/plugins/debugPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5916" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5916">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="23" selection-start="1760" selection-end="1760" vertical-scroll-proportion="-13.615385" vertical-offset="513" max-vertical-offset="1071" />
+        <state line="51" column="23" selection-start="1760" selection-end="1760" vertical-scroll-proportion="-13.615385" vertical-offset="513" max-vertical-offset="1071">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/screens/play.js">
@@ -278,20 +328,28 @@
         <state line="15" column="16" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1071" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/entities/entities.js">
+    <entry file="file://$PROJECT_DIR$/js/resources.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="168" selection-end="168" vertical-scroll-proportion="0.26198632" vertical-offset="0" max-vertical-offset="1292" />
+        <state line="14" column="28" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="59" selection-start="1515" selection-end="1515" vertical-scroll-proportion="1.5428082" vertical-offset="0" max-vertical-offset="1088" />
+        <state line="45" column="59" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1122">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/resources.js">
+    <entry file="file://$PROJECT_DIR$/js/entities/entities.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="47" selection-start="124" selection-end="124" vertical-scroll-proportion="0.14554794" vertical-offset="0" max-vertical-offset="816">
-          <folding />
+        <state line="89" column="43" selection-start="2540" selection-end="2540" vertical-scroll-proportion="0.65068495" vertical-offset="1133" max-vertical-offset="4182">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
