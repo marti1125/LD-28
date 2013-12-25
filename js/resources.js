@@ -19,7 +19,19 @@ game.resources = [
     /**
      * Maps.
      */
-    {name: "area01", type: "tmx", src: "data/map/area01.tmx"}
+    {name: "area01", type: "tmx", src: "data/map/area01.tmx"},
+
+    /*
+     * Background music.
+     */
+    {name: "dst-inertexponent", type: "audio", src: "data/bgm/", channel : 1},
+
+    /*
+     * Sound effects.
+     */
+    {name: "cling", type: "audio", src: "data/sfx/", channel : 2},
+    {name: "stomp", type: "audio", src: "data/sfx/", channel : 1},
+    {name: "jump",  type: "audio", src: "data/sfx/", channel : 1}
 
     /* Graphics.
      * @example
